@@ -1,10 +1,13 @@
 import React from 'react';
+import Ticker from 'ticker.js';
 import {
   AppRegistry,
   StyleSheet,
   Text,
   View,
+  asset,
 } from 'react-360';
+import { stat } from 'fs';
 
 export default class MyProject extends React.Component {
   render() {
